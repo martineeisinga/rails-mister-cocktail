@@ -1,0 +1,20 @@
+<div class="navbar-wagon">
+  <!-- Logo -->
+  <a href="/" class="navbar-wagon-brand">
+    <%= image_tag "logo.jpg", {class: "img-circle", id: "logo"}%>
+  </a>
+
+  <!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+
+    <%= link_to "Home", root_path, class: "navbar-wagon-item navbar-wagon-link" %>
+
+
+    <!-- Profile picture with dropdown list -->
+    <div class="navbar-wagon-item">
+      <div class="dropdown">
+        <%= image_tag "avatar.jpg", {class: "img-circle avatar", id: "logo"}%>
+      </div>
+    </div>
+  </div>
+</div>

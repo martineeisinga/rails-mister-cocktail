@@ -1,0 +1,28 @@
+.btn-medium {
+  color: #E6B89C;
+  border: 5px solid #E6B89C;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+}
+
+.btn-medium:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #ED9390;
+}
+
+.btn.btn-primary.btn-lg{
+  background-color: #748E54;
+  border:white;
+  border-radius: 15px;
+  font-weight:lighter;
+  opacity:0.6;
+  color:white
+}
+
+.btn.btn-primary.btn-lg:hover {
+  opacity: 1;
+  text-decoration: none;
+}

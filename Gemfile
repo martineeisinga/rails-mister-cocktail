@@ -6,6 +6,8 @@ end
 
 ruby '2.3.5'
 
+gem 'figaro'
+
 gem 'jquery-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
