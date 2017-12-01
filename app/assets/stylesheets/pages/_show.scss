@@ -1,0 +1,34 @@
+#doses{
+  margin-top: 50px;
+
+}
+
+h3{
+  color: #F7AF9D;
+  font-weight: lighter;
+}
+
+li{
+  font-weight: lighter;
+  color: grey;
+  margin-bottom:20px;
+}
+
+.description{
+  margin-bottom: 50px
+}
+
+.delete{
+  border: solid 1px grey;
+  color: grey;
+  padding: 8px;
+  font-size: 15px;
+  display: block;
+  width: 135px;
+}
+
+.delete:hover{
+  text-decoration:none;
+  color: #F7AF9D;
+  border: solid 2px #F7AF9D;
+}

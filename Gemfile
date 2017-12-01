@@ -8,6 +8,8 @@ ruby '2.3.5'
 
 gem 'figaro'
 
+gem 'cloudinary'
+gem 'carrierwave', '~> 0.11.2'
 gem 'jquery-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
