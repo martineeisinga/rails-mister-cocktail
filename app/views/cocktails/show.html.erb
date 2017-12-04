@@ -18,7 +18,7 @@
       <% end %>
       </ul>
       </div>
-      <%= link_to "Delete this cocktail", cocktails_path, method: :delete, class: "btn-medium" %>
+      <%= link_to "Delete this cocktail", cocktail_path(@cocktail), method: :delete, class: "btn-medium" %>
       <%= link_to "Go back to all cocktails", cocktails_path, class: "btn-medium"  %>
       <%= link_to "Add a dose", new_cocktail_dose_path(@cocktail), class: "btn-medium" %>
       </div>
